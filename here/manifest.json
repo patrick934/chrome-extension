@@ -1,0 +1,13 @@
+
+{
+  "manifest_version": 2,
+  "name": "FocusA",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["./main.js"]
+    }
+  ],
+  "web_accessible_resources" : ["/Sam.mp3", "/SoundBite.mp3"]
+}
